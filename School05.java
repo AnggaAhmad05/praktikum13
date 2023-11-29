@@ -12,14 +12,14 @@ public class School05 {
         display(students1D);
     }
     public static void display (String[] students){
-        System.out.printf("===========================%n");
+        System.out.printf("+++++++++++++++++++++++++%n");
         System.out.printf("| %-3s | %-15s |%n", "NO","NAME");
-        System.out.printf("===========================%n");
+        System.out.printf("+++++++++++++++++++++++++%n");
 
         for (int i = 0; i < students.length; i++) {
             System.out.printf("| %-3d | %-15s |%n", (i+1),students[i] );
             
         }
-        System.out.printf("=========================%n%n");
+        System.out.printf("+++++++++++++++++++++++++%n%n");
     }
 }
